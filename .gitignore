@@ -1,0 +1,69 @@
+# ===========================
+# Arquivos e pastas do Python
+# ===========================
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+
+# ===========================
+# Ambientes virtuais
+# ===========================
+.env/
+venv/
+.venv/
+
+# ===========================
+# IDEs / Editores
+# ===========================
+.vscode/
+.idea/
+
+# ===========================
+# Logs e temporários
+# ===========================
+*.log
+*.tmp
+
+# ===========================
+# Arquivos grandes do projeto
+# ===========================
+# Você MANTÉM as pastas no Git (via .gitkeep),
+# mas IGNORA seus conteúdos exceto o .gitkeep
+# ===========================
+
+# Ignore tudo dentro de data/ exceto o .gitkeep
+data/*
+!data/.gitkeep
+
+# Ignore tudo dentro de data/preprocessed/ exceto o .gitkeep
+data/preprocessed/*
+!data/preprocessed/.gitkeep
+
+# Ignore tudo dentro de data/preprocessed_dec/ exceto o .gitkeep
+data/preprocessed_dec/*
+!data/preprocessed_dec/.gitkeep
+
+# Ignore tudo dentro de data/videos/ exceto o .gitkeep
+data/videos/*
+!data/videos/.gitkeep
+
+# Ignore tudo dentro de data/videos_processados/ exceto o .gitkeep
+data/videos_processados/*
+!data/videos_processados/.gitkeep
+
+# Ignore tudo dentro de logs/ exceto o .gitkeep
+logs/*
+!logs/.gitkeep
+
+# ===========================
+# Vídeos e imagens grandes (se quiser)
+# ===========================
+*.mp4
+*.avi
+*.mov
+*.png
+*.jpg
+*.jpeg
