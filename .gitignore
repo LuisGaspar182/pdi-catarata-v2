@@ -34,10 +34,6 @@ venv/
 # mas IGNORA seus conteúdos exceto o .gitkeep
 # ===========================
 
-# Ignore tudo dentro de data/ exceto o .gitkeep
-data/*
-!data/.gitkeep
-
 # Ignore tudo dentro de data/preprocessed/ exceto o .gitkeep
 data/preprocessed/*
 !data/preprocessed/.gitkeep
