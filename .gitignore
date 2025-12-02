@@ -54,12 +54,3 @@ data/videos_processados/*
 logs/*
 !logs/.gitkeep
 
-# ===========================
-# Vídeos e imagens grandes (se quiser)
-# ===========================
-*.mp4
-*.avi
-*.mov
-*.png
-*.jpg
-*.jpeg
